@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PRESENTACION DE VIDEOJUEGO</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-image: url('.png'); /* Cambia por tu imagen */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    video {
+      margin-top: 50px;
+      border: 3px solid #fff;
+      box-shadow: 0 0 20px #ffcc00;
+      border-radius: 10px;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    header {
+      background-color: rgba(255, 153, 0, 0.9);
+      padding: 20px;
+      color: #000;
+    }
+
+    section {
+      margin: 40px auto;
+      max-width: 800px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    img {
+      margin: 30px;
+      width: 130px;
+    }
+
+  
+
+    .Personajes {
+      width: 150px;
+      border: 3px solid #ffcc00;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #ffcc00;
+    }
+
+    button {
+      background: linear-gradient(to right, #ff9900, #ff3300);
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff3300;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#descripcion">Inicio</a></li>
+      <li><a href="#galeria">Personajes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#creditos">Creditos</a></li>
+    </ul>
+  </nav>
+  
+  <header>
+    <h1>🌟 Dragon Ball Arcade</h1>
+    <p>¡Elige tu guerrero y lucha por el universo!</p>
+  </header>
+
+  <section id="descripcion">
+    <h2>Descripción</h2>
+    <p>Un juego arcade lleno de acción con Goku, Vegeta, Turles y más. ¡Desata tu ki y vence a tus enemigos!</p>
+    <section id="video">
+      <h2>Trailer del Juego</h2>
+      <h1>🔥 Dragon Ball Arcade 🔥</h1>
+  <video width="640" height="360" controls autoplay loop>
+    <source src=static/dbtrailer.mp4 type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
+  </section>
+
+
+  <section id="galeria">
+    <h2>Personajes</h2>
+    <!-- Aquí van tus imágenes -->
+    <div>
+      <a href="#"><img src="/img/Bardock.jpg" alt="Bardock" class="Personaje"></a>
+      <a href="#"><img src="/img/Bills.jpg" alt="Bills" class="Personaje"></a>
+      <a href="#"><img src="/img/brolyssj.png" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/Cell.jpg" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/GogetaSSJBlue.jpg" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/gohanssj2.jpg" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/goku.jpg" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/Omega.jpg" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/Picoro.jpg" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/turles.png" alt="" class="Personaje"></a>
+      <a href="#"><img src="/img/vegetassj3.jpg" alt="" class="Personaje"></a>
+      <a href=""><img src="/img/vegitob.jpg" alt="" class="Personaje"></a>
+    </div>
+  </section>
+
+  <section id="jugar">
+    <h2>¡Jugar ahora!</h2>
+    <form action="/jugar">
+      <button type="submit">Iniciar Juego</button>
+    </form>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <!-- Formulario o info de contacto -->
+  </section>
+
+  <section id="creditos">
+    <h2>Créditos</h2>
+    <!-- Créditos del juego -->
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,79 @@
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-image: url('.png'); /* Cambia por tu imagen */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #0c0c0c;
+      text-align: center;
+    }
+
+    nav {
+      background-color: rgba(8, 8, 8, 0.8);
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #080808;
+    }
+
+    header {
+      background-color: rgba(255, 153, 0, 0.9);
+      padding: 20px;
+      color: #000;
+    }
+
+    section {
+      margin: 40px auto;
+      max-width: 800px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    img {
+      height: 200px;
+      width: 100px;
+    }
+    
+
+    .Personajes img {
+      width: 200px;
+      border: 3px solid #ffcc00;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #ffcc00;
+    }
+    button {
+      background: linear-gradient(to right, #ff9900, #ff3300);
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: rgb(12, 12, 12);
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff3300;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+
